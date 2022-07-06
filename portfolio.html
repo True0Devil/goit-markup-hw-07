@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <nav class="flex">
+          <a href="./index.html" class="logo"
+            ><span class="logo-accent">Web</span><span class="logo-secondary">Studio</span></a
+          >
+
+          <ul class="nav-list">
+            <li><a href="./index.html" class="navigation">Студия</a></li>
+            <li><a href="./portfolio.html" class="navigation current">Портфолио</a></li>
+            <li><a href="" class="navigation">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <ul class="contacts">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contact-link">
+              <svg class="contact-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+
+          <li>
+            <a href="tel:+380961111111" class="contact-link">
+              <svg class="contact-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="visually-hidden">Наши работы</h1>
+          <ul class="portfolio-menu flex">
+            <li class="menu-item">
+              <button type="button" class="portfolio-filter">Все</button>
+            </li>
+            <li class="menu-item">
+              <button type="button" class="portfolio-filter">Веб-сайты</button>
+            </li>
+            <li class="menu-item">
+              <button type="button" class="portfolio-filter">Приложения</button>
+            </li>
+            <li class="menu-item">
+              <button type="button" class="portfolio-filter">Дизайн</button>
+            </li>
+            <li class="menu-item">
+              <button type="button" class="portfolio-filter">Маркетинг</button>
+            </li>
+          </ul>
+
+          <ul class="portfolio-list flex">
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-thumb">
+                  <img
+                    src="./images/portfolio1.jpg"
+                    alt="веб-сайт на экране лаптопа"
+                    width="370"
+                    class="portfolio-img"
+                  />
+                  <div class="portfolio-overlay">
+                    <p>
+                      Ментор, привет, это я, твой единственный ученик. На протяжении всего этого
+                      времени я создавал иллюзию того что ты проверяешь домашки разных людей, но это
+                      был я. Сейчас я отправлю это сообщение во всех домашках.
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio-about">
+                  <h2 class="portfolio-title">Технокряк</h2>
+                  <p class="portfolio-description">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-thumb">
+                  <img
+                    src="./images/portfolio2.jpg"
+                    alt="баскетболисты в прыжке"
+                    width="370"
+                    class="portfolio-img"
+                  />
+                  <div class="portfolio-overlay">
+                    <p>
+                      The New Orleans Pelicans are an American professional basketball team based in
+                      New Orleans. The Pelicans compete in the National Basketball Association (NBA)
+                      as a member of the league's Western Conference Southwest Division.
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio-about">
+                  <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="portfolio-description">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-thumb">
+                  <img
+                    src="./images/portfolio3.jpg"
+                    alt="лого ресторана"
+                    width="370"
+                    class="portfolio-img"
+                  />
+                  <div class="portfolio-overlay">
+                    <p>Продам гараж 8-800-555-35-35</p>
+                  </div>
+                </div>
+                <div class="portfolio-about">
+                  <h2 class="portfolio-title">Ресторан Seafood</h2>
+                  <p class="portfolio-description">Приложение</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-thumb">
+                  <img
+                    src="./images/portfolio4.jpg"
+                    alt="наушники"
+                    width="370"
+                    class="portfolio-img"
+                  />
+                  <div class="portfolio-overlay">
+                    <p>Fuck people for confusing nice and good</p>
+                  </div>
+                </div>
+                <div class="portfolio-about">
+                  <h2 class="portfolio-title">Проект Prime</h2>
+                  <p class="portfolio-description">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-thumb">
+                  <img
+                    src="./images/portfolio5.jpg"
+                    alt="две коробки"
+                    width="370"
+                    class="portfolio-img"
+                  />
+                  <div class="portfolio-overlay">
+                    <p>
+                      There is an idea of a Patrick Bateman. Some kind of abstraction. But there is
+                      no real me. Only an entity. And though I can hide my cold gaze, and you can
+                      shake my hand and feel flesh gripping yours, and maybe you can even sense our
+                      lifestyles are probably comparable, I simply am not there.
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio-about">
+                  <h2 class="portfolio-title">Проект Boxes</h2>
+                  <p class="portfolio-description">Приложение</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-thumb">
+                  <img
+                    src="./images/portfolio6.jpg"
+                    alt="монитор"
+                    width="370"
+                    class="portfolio-img"
+                  />
+                  <div class="portfolio-overlay">
+                    <p>
+                      Главное условие сохранения энтузиазма к тому, что вы делаете, и желания не
+                      бросать это занятие — находить время на то, чтобы получать от этого радость и
+                      удовольствие. Иногда важно целенаправленно стремиться именно к такому эффекту.
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio-about">
+                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                  <p class="portfolio-description">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-thumb">
+                  <img
+                    src="./images/portfolio7.jpg"
+                    alt="открытый журнал"
+                    width="370"
+                    class="portfolio-img"
+                  />
+                  <div class="portfolio-overlay">
+                    <p>
+                      — Эрик, — сказал мой отец, — сейчас ты в одной из тех ситуаций, когда зерна
+                      отделяются от плевел. Именно в этот момент ты должен показать, чего ты стоишь.
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio-about">
+                  <h2 class="portfolio-title">Издание Limited Edition</h2>
+                  <p class="portfolio-description">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-thumb">
+                  <img
+                    src="./images/portfolio8.jpg"
+                    alt="бирка"
+                    width="370"
+                    class="portfolio-img"
+                  />
+                  <div class="portfolio-overlay">
+                    <p>Social suicide speedrunner</p>
+                  </div>
+                </div>
+                <div class="portfolio-about">
+                  <h2 class="portfolio-title">Проект LAB</h2>
+                  <p class="portfolio-description">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-thumb">
+                  <img
+                    src="./images/portfolio9.jpg"
+                    alt="работа за ноутбуком"
+                    width="370"
+                    class="portfolio-img"
+                  />
+                  <div class="portfolio-overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio-about">
+                  <h2 class="portfolio-title">Growing Business</h2>
+                  <p class="portfolio-description">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-address">
+          <a href="./index.html" class="logo logo-footer">
+            <span class="logo-accent">Web</span><span class="logo-alternative">Studio</span>
+          </a>
+          <address>
+            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="footer-contacts">
+              <li class="contact-item">
+                <a href="mailto:info@example.com" class="footer-contact">info@example.com</a>
+              </li>
+              <li class="contact-item">
+                <a href="tel:+380991111111" class="footer-contact">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-socials-container">
+          <b class="footer-title">присоединяйтесь</b>
+          <ul class="footer-socials flex">
+            <li class="socials-item">
+              <a href="#" class="footer-socials-link">
+                <svg class="socials-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="socials-item">
+              <a href="#" class="footer-socials-link">
+                <svg class="socials-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="socials-item">
+              <a href="#" class="footer-socials-link">
+                <svg class="socials-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="socials-item">
+              <a href="#" class="footer-socials-link">
+                <svg class="socials-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-subscribe">
+          <form name="subscribe-form" autocomplete="on">
+            <b class="footer-title">Подпишитесь на рассылку</b>
+            <label class="visually-hidden" for="sub-email">Почта</label>
+            <input
+              type="email"
+              name="sub-email"
+              class="sub-input"
+              placeholder="E-mail"
+              maxlength="30"
+              id="sub-email"
+            />
+            <button type="submit" class="sub-button">
+              <div class="flex">
+                <span class="subbutton-text">Подписаться</span>
+                <svg width="24" height="24" class="sub-icon">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
