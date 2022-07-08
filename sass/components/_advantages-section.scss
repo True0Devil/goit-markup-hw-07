@@ -1,0 +1,41 @@
+.details {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.details__item {
+  width: 270px;
+}
+
+.details__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.details__icon-container {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.details__title {
+  margin-top: 0;
+  margin-bottom: 10;
+  padding: 0;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $titleColor;
+}
+
+.details__description {
+  color: $textColor;
+  margin: 0;
+  padding: 0;
+}
